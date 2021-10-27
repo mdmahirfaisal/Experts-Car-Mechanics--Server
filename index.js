@@ -77,7 +77,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-    console.log('Hello Update here');
+    res.send('Hello Update here my heroku live server');
 })
 
 app.listen(port, () => {
